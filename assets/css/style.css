@@ -40,10 +40,12 @@ body {
   height: 35px;
   width: 150px;
   border-radius: 10px;
-  background-color: rgb(123, 206, 239);
+  background-color: rgb(237, 238, 240);
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  border: 1px solid  rgb(159, 157, 157);
 }
 
 .file_info {
