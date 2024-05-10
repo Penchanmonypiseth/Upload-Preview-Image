@@ -9,7 +9,6 @@ let renderImage = (event) => {
         'image/gif',
         'image/svg',
     ];
-    const limitFileSize = 1020 * 1020 * 2;
     const { name, size, type } = event.target.files[0];
     if (allowImageType.includes(type) && size) {
         let reader = new FileReader();
