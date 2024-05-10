@@ -10,7 +10,7 @@ let renderImage = (event) => {
         'image/svg',
     ];
     const { name, size, type } = event.target.files[0];
-    if (allowImageType.includes(type) && size) {
+    if (allowImageType.includes(type)) {
         let reader = new FileReader();
         reader.addEventListener("load", (e) => {
             preview_img.src = e.target.result;
